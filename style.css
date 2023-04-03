@@ -4,6 +4,26 @@ body {
     font-family: sans-serif;
 }
 
+a {
+    color: white;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: white;
+}
+
 .header_main {
     background-color: black;
     color: white;
@@ -14,15 +34,25 @@ body {
 
 .header_menu {
     display: flex;
-    padding-left: 20%;
+    padding-left: 17%;
 }
 
-.menu-item {
+.menu_item {
     padding-left: 10%;
 }
 
 .text_logo {
     padding-left: 3%;
-    font-size: larger;  
+    font-size: larger;
     font-family: Helvetica;
+}
+
+.header-social {
+    display: flex;
+    padding-left: 20%;
+}
+
+.social_item {
+    font-size: 18px;
+    padding-left: 40%;
 }
