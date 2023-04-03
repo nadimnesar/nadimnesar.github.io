@@ -1,0 +1,28 @@
+body {
+    background-color: #fafafa;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header_main {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+.header_menu {
+    display: flex;
+    padding-left: 20%;
+}
+
+.menu-item {
+    padding-left: 10%;
+}
+
+.text_logo {
+    padding-left: 3%;
+    font-size: larger;  
+    font-family: Helvetica;
+}
