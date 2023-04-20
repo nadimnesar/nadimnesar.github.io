@@ -7,6 +7,11 @@
 body {
     background-color: #FFFFFF;
     font-family: sans-serif;
+    display: block;
+}
+
+.flex {
+    display: flex;
 }
 
 .header_main {
@@ -17,10 +22,6 @@ body {
     height: 12vh;
     width: 100vw;
     position: fixed;
-}
-
-.nav_main {
-    display: flex;
 }
 
 .text_logo {
@@ -63,4 +64,8 @@ header a:hover {
 header a:active {
     text-decoration: none;
     color: white;
+}
+
+main {
+    padding-top: 12vh;
 }
