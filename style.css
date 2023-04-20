@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,35 +8,46 @@
 
 body {
     background-color: #FFFFFF;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: block;
+    width: 100%;
+}
+
+button {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 1vh 1%;
+    border-radius: 20px;
 }
 
 .flex {
     display: flex;
 }
 
+.head_font {
+    font-family: 'Chivo Mono', monospace;
+}
+
 .header_main {
     background-color: #111111;
     display: flex;
+    position: fixed;
     justify-content: left;
     align-items: center;
     height: 12vh;
-    width: 100vw;
-    position: fixed;
+    width: 100%;
 }
 
 .text_logo {
-    font-family: Helvetica;
     font-size: 1.3rem;
-    padding-left: 5vw;
+    padding-left: 5%;
 }
 
 .nav_menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 10vw;
+    padding-left: 18%;
     gap: 3.5vw;
 }
 
@@ -42,7 +55,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 17vw;
+    padding-left: 27%;
     gap: 2.5vw;
 }
 
@@ -58,6 +71,11 @@ header a:visited {
 
 header a:hover {
     text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: none;
     color: #888888;
 }
 
@@ -68,4 +86,32 @@ header a:active {
 
 main {
     padding-top: 12vh;
+}
+
+.hero_img {
+    border-radius: 400px;
+    height: 40%;
+    width: 20%;
+}
+
+.hero_banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7vh;
+}
+
+.hero_title {
+    padding-bottom: 4vh;
+    color: #333333;
+}
+
+.hero_dec {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    color: #333333;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
 }
