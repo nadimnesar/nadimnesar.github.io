@@ -118,3 +118,13 @@ main {
     padding-top: 3vh;
     padding-bottom: 1vh;
 }
+
+.main_footer {
+    background-color: #000000;
+    color: #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+    height: 5.22vh;
+}
