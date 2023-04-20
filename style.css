@@ -9,7 +9,7 @@
 :root {
     --primary-back-color: #FFFFFF;
     --secondary-back-color: #111111;
-    
+
     --primary-text-color-white-back: #333333;
 
     --primary-text-color-black-back: #ffffff;
@@ -176,4 +176,3 @@ footer a:active {
     margin-top: 7vh;
     height: 7vh;
 }
-
