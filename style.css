@@ -13,11 +13,14 @@ body {
     width: 100%;
 }
 
-button {
-    background-color: #333333;
-    color: #FFFFFF;
-    padding: 1vh 1%;
-    border-radius: 20px;
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #111111 !important;
+    border: 1px solid #111111 !important;
+}
+
+.btn-primary:hover {
+    background-color: #333333 !important;
+    border: 1px solid #333333 !important;
 }
 
 .flex {
@@ -99,11 +102,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 7vh;
+    padding-top: 5vh;
 }
 
 .hero_title {
-    padding-bottom: 4vh;
+    padding-bottom: 2vh;
     color: #333333;
 }
 
@@ -113,5 +116,5 @@ main {
     text-align: center;
     color: #333333;
     padding-top: 3vh;
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
 }
