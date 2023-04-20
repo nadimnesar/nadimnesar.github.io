@@ -102,11 +102,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5vh;
+    padding-top: 7vh;
 }
 
 .hero_title {
-    padding-bottom: 3vh;
+    padding-bottom: 5vh;
     color: #333333;
 }
 
@@ -126,5 +126,5 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 4vh;
-    height: 5.22vh;
+    height: 7vh;
 }
