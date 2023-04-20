@@ -106,7 +106,7 @@ main {
 }
 
 .hero_title {
-    padding-bottom: 2vh;
+    padding-bottom: 3vh;
     color: #333333;
 }
 
@@ -125,6 +125,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8vh;
+    margin-top: 4vh;
     height: 5.22vh;
 }
