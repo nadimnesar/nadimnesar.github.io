@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,40 +12,33 @@ body {
 .nav_main {
     background-color: black;
     display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 12vh;
     width: 100vw;
-    padding-bottom: 37px;
-    padding-top: 37px;
+    position: fixed;
 }
 
 .text_logo {
     font-family: Helvetica;
     font-size: 1.3rem;
-    padding-left: 3vw;
-    padding-right: 15vw;
+    padding-left: 5vw;
 }
 
 .nav_menu {
     display: flex;
-    list-style: none;
-}
-
-.menu_item {
-    padding-top: 3px;
-    padding-right: 3vw;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+    gap: 3.5vw;
 }
 
 .nav_social {
     display: flex;
-    padding-left: 5vw;
-}
-
-.social_item {
-    padding-top: 8px;
-    padding-right: 3vw;
-}
-
-.social_item a i {
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 17vw;
+    gap: 2.5vw;
 }
 
 nav a:link {
@@ -59,7 +53,7 @@ nav a:visited {
 
 nav a:hover {
     text-decoration: none;
-    color: lightgray;
+    color: gray;
 }
 
 nav a:active {
