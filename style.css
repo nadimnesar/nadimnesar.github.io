@@ -141,11 +141,31 @@ header a:active {
     font-size: 1.3rem;
     text-align: center;
     color: var(--primary-text-color-white-back);
-    padding-top: 3vh;
+    padding-top: 3.2vh;
     padding-bottom: 2.5vh;
 }
 
 /* footer */
+
+footer a:link {
+    text-decoration: none;
+    color: var(--primary-text-color-black-back);
+}
+
+footer a:visited {
+    text-decoration: none;
+    color: var(--primary-text-color-black-back);
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: var(--primary-text-color-black-back);
+}
+
+footer a:active {
+    text-decoration: none;
+    color: var(--primary-text-color-black-back);
+}
 
 .main_footer {
     background-color: var(--secondary-back-color);
