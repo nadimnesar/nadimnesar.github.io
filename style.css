@@ -5,18 +5,22 @@
 }
 
 body {
-    background-color: #fafafa;
+    background-color: #FFFFFF;
     font-family: sans-serif;
 }
 
-.nav_main {
-    background-color: black;
+.header_main {
+    background-color: #111111;
     display: flex;
     justify-content: left;
     align-items: center;
     height: 12vh;
     width: 100vw;
     position: fixed;
+}
+
+.nav_main {
+    display: flex;
 }
 
 .text_logo {
@@ -41,22 +45,22 @@ body {
     gap: 2.5vw;
 }
 
-nav a:link {
+header a:link {
     text-decoration: none;
     color: white;
 }
 
-nav a:visited {
+header a:visited {
     text-decoration: none;
     color: white;
 }
 
-nav a:hover {
+header a:hover {
     text-decoration: none;
-    color: gray;
+    color: #888888;
 }
 
-nav a:active {
+header a:active {
     text-decoration: none;
     color: white;
 }
