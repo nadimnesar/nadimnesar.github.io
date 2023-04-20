@@ -176,3 +176,32 @@ footer a:active {
     margin-top: 7vh;
     height: 7vh;
 }
+
+/* About Page */
+
+.about_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+}
+
+.about_title h1 {
+    font-family: var(--head-font);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+.about_title p {
+    font-family: var(--regular-font);
+    font-size: 1.8rem;
+    padding-top: 4vh;
+    text-align: justify;
+}
+
+.bar {
+    width: 35px;
+    border-top: 1vh solid var(--secondary-back-color);
+    border-radius: 5px;
+}
