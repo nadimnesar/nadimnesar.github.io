@@ -1,0 +1,23 @@
+.main_footer {
+  background-color: #111111;
+  color: #a6a6a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  font-size: 0.9rem;
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+
+    &:hover {
+      color: #a6a6a6;
+    }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+    height: 6vh;
+  }
+}
