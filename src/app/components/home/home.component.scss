@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 5vh;
+  padding-top: 8vh;
   text-align: center;
 }
 
@@ -26,8 +26,8 @@
   font-size: 1.3rem;
   padding-top: 5vh;
   padding-bottom: 2vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
   color: #333333;
 }
 
@@ -46,6 +46,10 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  .hero_banner {
+    padding-top: 2vh;
+  }
+
   .hero_title {
     font-size: 1.8rem;
   }
@@ -132,16 +136,6 @@ ul {
   margin-left: 20px;
 }
 
-.timeline-date {
-  font-size: 1.1rem;
-  color: #888;
-  position: absolute;
-  top: 0;
-  transform: translateY(-100%);
-  padding-bottom: 5px;
-  font-weight: bold;
-}
-
 .timeline-item.left {
   left: 0;
 
@@ -150,10 +144,6 @@ ul {
     margin-right: 10px;
     text-align: left;
   }
-
-  .timeline-date {
-    right: calc(50% + 4rem);
-  }
 }
 
 .timeline-item.right {
@@ -161,12 +151,8 @@ ul {
 
   .content-box {
     margin-right: auto;
-    margin-left: 13px;
+    margin-left: 10px;
     text-align: left;
-  }
-
-  .timeline-date {
-    left: calc(50% + 4rem);
   }
 }
 
@@ -175,11 +161,6 @@ ul {
     width: 100%;
     flex-direction: column;
     align-items: flex-start;
-  }
-
-  .timeline-date {
-    left: 50%;
-    transform: translateX(-50%);
   }
 
   .timeline:before {
