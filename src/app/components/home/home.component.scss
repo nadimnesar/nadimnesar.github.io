@@ -46,6 +46,10 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+  .hero_banner {
+    padding: 5vh 2vw;
+  }
+
   .hero_title {
     font-size: 1.8rem;
   }
