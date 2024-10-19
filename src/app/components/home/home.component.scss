@@ -5,41 +5,40 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 8vh;
+  padding: 8vh 2vw;
   text-align: center;
 }
 
 .hero_title {
   font-family: 'Chivo Mono', monospace;
   font-size: 2.2rem;
-  padding-bottom: 2vh;
   color: #333333;
+  margin-bottom: 5vh;
 }
 
 .hero_img {
   border-radius: 50%;
-  height: 40%;
+  height: auto;
   width: 20%;
   object-fit: cover;
+  margin-bottom: 5vh;
 }
 
 .hero_dec {
   font-size: 1.3rem;
-  padding-top: 5vh;
-  padding-bottom: 2vh;
-  padding-left: 8vw;
-  padding-right: 8vw;
   color: #333333;
+  margin: 0 8vw 2vh;
 }
 
 button {
   background-color: #111111;
   color: #ffffff;
-  padding: 15px;
-  margin-bottom: 4vh;
-  border: 0;
+  padding: 15px 25px;
+  margin-top: 2vh;
+  border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
@@ -47,23 +46,17 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-  .hero_banner {
-    padding-top: 2vh;
-  }
-
   .hero_title {
     font-size: 1.8rem;
   }
 
   .hero_img {
-    width: 50%;
-    height: auto;
+    width: 40%;
   }
 
-  .hero_dec {
+  .hero_desc {
     font-size: 1.1rem;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    margin: 0 5vw;
   }
 
   button {
@@ -74,7 +67,7 @@ button:hover {
 /* Work Experience Section */
 
 .work-experience {
-  padding: 5vh 0;
+  padding: 3vh 0;
   color: #333333;
   text-align: center;
 }
@@ -127,7 +120,6 @@ h2 {
 .content-arrow-left {
   position: relative;
   border-left: 5px solid black;
-  padding-left: 20px;
 }
 
 .content-arrow-left:after {
@@ -146,7 +138,6 @@ h2 {
 .content-arrow-right {
   position: relative;
   border-right: 5px solid black;
-  padding-left: 20px;
 }
 
 .content-arrow-right:after {
@@ -220,5 +211,17 @@ ul {
 
   .content-box {
     width: 100%;
+  }
+
+  .content-arrow-right {
+    border-left: 5px solid black;
+    border-right: 0px;
+  }
+
+  .content-arrow-right:after {
+    left: -15px;
+    right: 0px;
+    border-right: 10px solid black;
+    border-left: 0px;
   }
 }
