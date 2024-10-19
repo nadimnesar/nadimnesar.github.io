@@ -1,0 +1,1 @@
+html,body{margin:0;padding:0;height:100%}body{display:flex;flex-direction:column;background-color:#fff;font-family:Roboto,sans-serif}main{flex:1;padding-top:12vh;padding-left:2vw;padding-right:2vw}footer{flex-shrink:0;position:relative;z-index:1}
