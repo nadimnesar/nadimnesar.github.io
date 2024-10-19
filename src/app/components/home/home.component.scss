@@ -124,6 +124,44 @@ h2 {
   width: 90%;
 }
 
+.content-arrow-left {
+  position: relative;
+  border-left: 5px solid black;
+  padding-left: 20px;
+}
+
+.content-arrow-left:after {
+  content: '';
+  position: absolute;
+  top: 6%;
+  left: -15px;
+  transform: translateY(-6%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid black;
+}
+
+.content-arrow-right {
+  position: relative;
+  border-right: 5px solid black;
+  padding-left: 20px;
+}
+
+.content-arrow-right:after {
+  content: '';
+  position: absolute;
+  top: 6%;
+  right: -15px;
+  transform: translateY(-6%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid black;
+}
+
 h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
