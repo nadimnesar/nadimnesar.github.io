@@ -47,7 +47,7 @@ button:hover {
 
 @media (max-width: 768px) {
   .hero_banner {
-    padding: 5vh 2vw;
+    padding: 2vh 2vw;
   }
 
   .hero_title {
@@ -79,10 +79,10 @@ button:hover {
   font-family: 'Chivo Mono', monospace;
   font-size: 2.2rem;
   color: #333333;
-  margin-bottom: 4vh;
+  margin-bottom: 6vh;
 }
 
-.container .row > div {
+.container .row>div {
   margin-bottom: 4vh;
 }
 
@@ -106,7 +106,6 @@ button:hover {
 /* Work Experience Section */
 
 .work-experience {
-  padding: 3vh 0;
   color: #333333;
   text-align: center;
 }
