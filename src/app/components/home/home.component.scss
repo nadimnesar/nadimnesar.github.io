@@ -185,4 +185,12 @@ ul {
   .timeline:before {
     left: 5%;
   }
+
+  .timeline-item.right {
+    left: 0;
+
+    .content-box {
+      margin-left: 0px;
+    }
+  }
 }
