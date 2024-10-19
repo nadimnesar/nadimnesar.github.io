@@ -263,3 +263,64 @@ ul {
     border-left: 0px;
   }
 }
+
+/* Accomplishments */
+
+.accomplishments {
+  padding: 5vh 0;
+  text-align: center;
+  color: #ffffff;
+
+  .row {
+    gap: 10px;
+  }
+}
+
+.accomplishments h2 {
+  font-family: 'Chivo Mono', monospace;
+  font-size: 2.2rem;
+  margin-bottom: 6vh;
+}
+
+.accomplishment-card {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.accomplishment-card:hover {
+  transform: translateY(-10px);
+}
+
+.accomplishment-icon {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+  margin-right: 1rem;
+}
+
+.accomplishment-card p {
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .accomplishment-card {
+    max-width: 90%;
+    padding: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .accomplishment-icon {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
