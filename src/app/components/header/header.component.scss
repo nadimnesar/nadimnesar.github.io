@@ -3,17 +3,19 @@
   position: fixed;
   top: 0;
   width: 100%;
-  display: flex;
-  align-items: center;
-  height: 12vh;
   z-index: 100;
-  padding: 0 2vw;
+  height: 80px;
+
+  .row {
+    height: 100%;
+  }
 
   .text_logo {
     font-family: 'Chivo Mono', monospace;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #fff;
-    flex-grow: 1;
+    display: flex;
+    align-items: center;
 
     a {
       text-decoration: none;
@@ -27,10 +29,8 @@
 
   .nav_social {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    gap: 2vw;
-    padding: 0 5vw;
+    gap: 1.5rem;
 
     a {
       color: #fff;
@@ -39,15 +39,21 @@
         color: #a6a6a6;
       }
     }
-  }
-}
-
-@media (max-width: 768px) {
-  .nav_social {
-    gap: 1.5vw;
 
     i {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    height: 70px;
+
+    .text_logo {
+      font-size: 1.3rem;
+    }
+
+    .nav_social i {
+      font-size: 1.3rem;
     }
   }
 }
