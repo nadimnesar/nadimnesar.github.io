@@ -1,3 +1,3 @@
-# nadimnesar's Protfolio
+# nadimnesar's Portfolio
 
-Personal protfolio of Nesar Ahmed.
+Personal portfolio of Nesar Ahmed.
