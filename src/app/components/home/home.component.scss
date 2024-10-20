@@ -7,6 +7,20 @@
   align-items: center;
   padding: 8vh 2vw;
   text-align: center;
+  opacity: 0;
+  transform: scale(0.95);
+  animation: fadeInScale 1.5s ease-out forwards;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .hero_title {
@@ -91,6 +105,19 @@ button:hover {
   height: auto;
   filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
   transition: transform 0.3s ease;
+  transition: transform 0.3s ease;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .skill-icon:hover {
@@ -271,7 +298,7 @@ ul {
   color: #ffffff;
 
   .row {
-    gap: 10px;
+    gap: 15px;
   }
 }
 
@@ -288,11 +315,11 @@ ul {
   border-radius: 12px;
   display: flex;
   align-items: center;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
 .accomplishment-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-10px) scale(1.05);
 }
 
 .accomplishment-icon {

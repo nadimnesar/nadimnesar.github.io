@@ -5,6 +5,7 @@
   width: 100%;
   z-index: 100;
   height: 80px;
+  animation: fadeInDown 1s ease-out;
 
   .row {
     height: 100%;
@@ -31,6 +32,7 @@
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    animation: fadeIn 2s ease-in-out;
 
     a {
       color: #fff;
@@ -55,5 +57,25 @@
     .nav_social i {
       font-size: 1.3rem;
     }
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
